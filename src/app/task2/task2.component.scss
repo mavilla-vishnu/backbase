@@ -1,0 +1,29 @@
+.bc {
+  float: right;
+}
+
+.form {
+  max-width: 500px;
+  justify-content: center;
+  align-items: center;
+}
+
+mat-form-field {
+  margin: 30px;
+}
+.mat-mdc-raised-button[disabled][disabled]{
+  background-color: #BCBCBC;
+  color: white;
+}
+.centered {
+  top: 34%;
+  position: relative;
+  text-align: center;
+  width: 30vw;
+  height: 34vh;
+  justify-content: center;
+  align-items: center;
+  left: 34%;
+  border: 1px solid grey;
+  border-radius: 30px;
+}

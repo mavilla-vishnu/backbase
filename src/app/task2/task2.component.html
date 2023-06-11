@@ -1,0 +1,17 @@
+<button mat-button color="primary" class="bc" routerLink="/">
+  <mat-icon>arrow_back</mat-icon>Back to home
+</button>
+<div class="centered">
+  <h2>Login</h2>
+  <mat-form-field class="full-width">
+    <mat-label>Username</mat-label>
+    <input matInput type="text" [formControl]="username">
+  </mat-form-field>
+  <mat-form-field class="full-width">
+    <mat-label>Password</mat-label>
+    <input matInput type="password" [formControl]="password">
+  </mat-form-field><br>
+  <button mat-raised-button color="primary" (click)="sendData()" [disabled]="username.errors?.['required']||password.errors?.['required']">
+    <mat-icon>task_alt</mat-icon>Submit
+  </button>
+</div>

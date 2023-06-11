@@ -1,0 +1,63 @@
+th {
+  background: white !important;
+  color: black !important;
+}
+
+.mdc-data-table__cell {
+  background: white !important;
+  color: black !important;
+}
+
+button {
+  float: right;
+}
+
+.mat-mdc-paginator {
+  background: white ;
+  color: black !important;
+}
+
+.mat-mdc-row {
+  color: black !important;
+  background: white !important;
+}
+
+::ng-deep .mdc-menu-surface {
+  background: white !important;
+  color: black;
+}
+::ng-deep .mat-mdc-select-value{
+  color: black;
+}
+
+::ng-deep .mdc-list-item__primary-text {
+  color: black !important;
+}
+
+.centered {
+    display: flex;
+    width: 100vw;
+    height: 60vh;
+    justify-content: center;
+  }
+::ng-deep .mat-mdc-button-touch-target{
+  display: none !important;
+}
+::ng-deep .mat-mdc-paginator-navigation-previous{
+  display: none;
+}
+::ng-deep .mat-mdc-paginator-navigation-next{
+  display: none;
+}
+::ng-deep mat-paginator {
+  color: black !important;
+}
+::ng-deep .mat-mdc-icon-button svg{
+    fill: black !important;
+}
+::ng-deep .mat-mdc-select-arrow svg{
+  fill: #000000 !important;
+}
+.mat-mdc-button:disabled{
+  color: #BCBCBC;
+}

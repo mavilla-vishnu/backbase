@@ -1,0 +1,14 @@
+<p><b>Note:</b>You are given view access to dashboard page only when you ar loggeed in. If not you will be redirected to login message to
+  login with an error message.</p>
+<ul>
+  <li><a href="/dashboard">Dashboard</a></li>
+  <li><a href="/login">Login</a></li>
+  <li><a href="*">404</a></li>
+  <li><a href="/unknown">Unknown</a></li>
+  <li><a href="/public">Public</a></li>
+  <li><a href="/abcdef">Redirect to 404</a></li>
+</ul>
+
+<h1>Login</h1>
+<button mat-raised-button color="primary" (click)="makeLoginSuccess()" *ngIf="!isLoggedIn">Perform successful login</button><br>
+<button mat-raised-button color="primary" (click)="logout()" *ngIf="isLoggedIn">Logout</button>
